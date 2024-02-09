@@ -1,30 +1,18 @@
-# React + TypeScript + Vite
+Ignite Timer - Projeto do Curso de React da Rocketseat
+O Ignite Timer é uma aplicação desenvolvida como parte do curso de React da Rocketseat. Trata-se de um temporizador que utiliza diversas tecnologias e técnicas modernas para oferecer uma experiência de usuário intuitiva e eficiente.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Durante o desenvolvimento deste projeto, foram explorados e aplicados os seguintes recursos:
 
-Currently, two official plugins are available:
+Styled Components: Utilizamos Styled Components para estilizar os componentes, proporcionando uma aparência atraente e uma organização clara do código de estilo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+useReducer: O hook useReducer foi empregado para gerenciar o estado do temporizador, permitindo uma manipulação eficaz das alterações de estado e a sincronização das ações do usuário.
 
-## Expanding the ESLint configuration
+Roteamento React Router DOM: Implementamos o React Router DOM para permitir a navegação entre diferentes telas da aplicação, garantindo uma experiência de usuário fluída e intuitiva.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+useContext: Utilizamos o hook useContext para compartilhar informações relevantes entre os componentes da aplicação, evitando a necessidade de passar props manualmente através da árvore de componentes.
 
-- Configure the top-level `parserOptions` property like this:
+Immer Biblioteca: Incorporamos a biblioteca Immer para facilitar a atualização imutável do estado do temporizador, garantindo uma manipulação segura e eficiente do estado da aplicação.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+HookForm e Zod: Utilizamos o HookForm em conjunto com a biblioteca Zod para criar e validar formulários de entrada de dados, garantindo uma interação fluida e segura com o usuário.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+O Ignite Timer representa uma etapa significativa no aprendizado e na aplicação prática dos conceitos e técnicas aprendidas durante o curso de React da Rocketseat. Este projeto oferece uma base sólida para o desenvolvimento de aplicações web modernas e escaláveis, demonstrando a capacidade de utilizar as mais recentes tecnologias e práticas de desenvolvimento frontend.
